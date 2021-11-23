@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="gallery-styles.css">
+    <!-- javascript -->
+    <script src="index-js.js"></script>
+    <!-- modern font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+    <!-- old english font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <title>L&L Gallery</title>
+
+</head>
+<div class="container">
+    <div class="header">
+        <div class="menu">
+            <div id="main">
+                <!-- open menu -->
+                <span style="font-size: 25px; cursor:pointer" onclick="openNav()"> &#9776; Menu </span>
+            </div>
+            <!-- burger menu -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html"> Home </a>
+                <a href="about.html"> About </a>
+                <a href="gallery.html"> Gallery </a>
+                <a href="news.html"> News </a>
+                <a href="contact.html"> Contact </a>
+            </div>
+
+            <div class="name">
+                <div class="hairlogo"> <img src="logo.png" height="245px">
+                </div>
+                <div class="title1"> LOCKS and LOADED
+                    <div class="title2"> Salon </div>
+                </div>
+            </div>
+
+            <ul id="horizontal">
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="about.html"> About </a></li>
+                <li> <a href="gallery.html"> Gallery </a></li>
+                <li><a href="news.html"> News </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </div>
+        <div class="hidden">Out With The Old In With The New</div>
+        <div class="hidden2"><img src="pichidden.jpg" height="650px"></div>
+        <div class="hidden3">Check Out Our Amazing Before And After</div>
+    </div>
+
+    <div class="content">
+
+        <div class="section1">
+            <a id="first"><img class="on" src="1.jpg" height="325px" width="300px"> <img class="off" src="1-1.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="2.jpg" height="325px" width="300px"> <img class="off" src="2-2.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="3.jpg" height="325px" width="300px"> <img class="off" src="3-3.jpg"
+                    height="325px" width="300px"></a>
+
+        </div>
+        <div class="section2">
+            <a id="first"><img class="on" src="4.jpg" height="325px" width="300px"> <img class="off" src="4-4.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="5.jpg" height="325px" width="300px"> <img class="off" src="5-5.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="6.jpg" height="325px" width="300px"> <img class="off" src="6-6.jpg"
+                    height="325px" width="300px"></a>
+
+        </div>
+        <div class="section3">
+            <a id="first"><img class="on" src="7.jpg" height="325px" width="300px"> <img class="off" src="7-7.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="8.jpg" height="325px" width="300px"> <img class="off" src="8-8.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="9.jpg" height="325px" width="300px"> <img class="off" src="9-9.jpg"
+                    height="325px" width="300px"></a>
+
+        </div>
+        <div class="section4">
+            <a id="first"><img class="on" src="10.jpg" height="325px" width="300px"> <img class="off" src="10-10.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="11.jpg" height="325px" width="300px"> <img class="off" src="11-11.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="12.jpg" height="325px" width="300px"> <img class="off" src="12-12.jpg"
+                    height="325px" width="300px"></a>
+
+
+        </div>
+        <div class="section5">
+            <a id="first"><img class="on" src="13.jpg" height="325px" width="300px"> <img class="off" src="13-13.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="14.jpg" height="325px" width="300px"> <img class="off" src="14-14.jpg"
+                    height="325px" width="300px"></a>
+            <a id="first"><img class="on" src="15.jpg" height="325px" width="300px"> <img class="off" src="15-15.jpg"
+                    height="325px" width="300px"></a>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy"> © 2021 Locks and Loaded. All rights reseverd.</div>
+        <ul class="icons">
+            <li id="icons"><a href="#instagram"><img src="insta.png" style="width:50px;height:50px;"
+                        onmouseover="this.src='insta1.png'" onmouseout="this.src='insta.png'" /></a></li>
+            <li id="icons"><a href="#facebook"><img src="fb.png" style="width:50px;height:50px;"
+                        onmouseover="this.src='fb1.png'" onmouseout="this.src='fb.png'" /></a></li>
+            <li id="icons"><a href="#twitter"><img src="twit.png" style="width:50px;height:50px;"
+                        onmouseover="this.src='twit1.png'" onmouseout="this.src='twit.png'" /></a></li>
+            <li id="icons"><a href="#youtube"><img src="ytube.png" style="width:50px;height:50px;"
+                        onmouseover="this.src='ytube1.png'" onmouseout="this.src='ytube.png'" /></a></li>
+        </ul>
+    </div>
+    </body>
+
+</html>

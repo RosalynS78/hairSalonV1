@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index-styles.css">
+    <!-- javascript -->
+    <script src="index-js.js"></script>
+    <!-- modern font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+    <!-- old english font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <title>L&L Homepage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <div id="main">
+                    <!-- open menu -->
+                    <span style="font-size: 25px; cursor:pointer" onclick="openNav()"> &#9776; Menu </span>
+                </div>
+                <!-- burger menu -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html"> Home </a>
+                    <a href="about.html"> About </a>
+                    <a href="gallery.html"> Gallery </a>
+                    <a href="news.html"> News </a>
+                    <a href="contact.html"> Contact </a>
+                </div>
+                <div class="name">
+                    <div class="hairlogo"> <img src="logo.png" height="245px">
+                    </div>
+                    <div class="title1"> LOCKS and LOADED
+                        <div class="title2"> Salon </div>
+                    </div>
+                </div>
+                <ul id="horizontal">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="about.html"> About </a></li>
+                    <li> <a href="gallery.html"> Gallery </a></li>
+                    <li><a href="news.html"> News </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="table">
+                <table class="landing-table">
+                    <tr>
+                        <td>
+                            <p class="ptitle"> Women's Hair </p>
+                            <img src="hair1.jpg" width="250px" height="250px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="sans"> Book your appoint with us </p>
+                            <p class="sans"> (806) XXX-XXXX </p>
+                            <p class="sans"> Hours </p>
+                            <P class="sans"> Monday - Friday: </P>
+                            <p class="sans"> 10 AM - 5 PM </p>
+                            <p class="sans"> Saturday: </p>
+                            <p class="sans"> By Appointments Only </p>
+                            <p class="sans "> Sunday </p>
+                            <p class="sans"> Closed </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="ptitle"> Men's Hair </p>
+                            <img src="hair2.jpg" width="250px" height="250px">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copy"> © 2021 Locks and Loaded. All rights reseverd.</div>
+
+            <ul class="icons">
+                <li id="icons"><a href="#instagram"><img src="insta.png" style="width:50px;height:50px;"
+                            onmouseover="this.src='insta1.png'" onmouseout="this.src='insta.png'" /></a></li>
+                <li id="icons"><a href="#facebook"><img src="fb.png" style="width:50px;height:50px;"
+                            onmouseover="this.src='fb1.png'" onmouseout="this.src='fb.png'" /></a></li>
+                <li id="icons"><a href="#twitter"><img src="twit.png" style="width:50px;height:50px;"
+                            onmouseover="this.src='twit1.png'" onmouseout="this.src='twit.png'" /></a></li>
+                <li id="icons"><a href="#youtube"><img src="ytube.png" style="width:50px;height:50px;"
+                            onmouseover="this.src='ytube1.png'" onmouseout="this.src='ytube.png'" /></a></li>
+            </ul>
+        </div>
+</body>
+</html>
